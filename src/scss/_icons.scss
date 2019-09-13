@@ -1,0 +1,17 @@
+.icon-github {
+    &:before {
+      content: url('./../img/icon-github.svg');
+    }
+  }
+  
+.icon-closed {
+    &:before {
+      content: url('./../img/icon-closed-issue.svg');
+    }
+}
+  
+.icon-open {
+    &:before {
+      content: url('./../img/icon-open-issue.svg');
+    }
+}

@@ -1,0 +1,34 @@
+.issues-list {
+    &_item {
+      display: flex;
+      border: 1px solid $border-gray;
+      background: white;
+      border-radius: 5px;
+      justify-content: space-between;
+      &:not(:last-child) {
+        margin-bottom: 5px;
+      }
+      &_label {
+        color: $txt-color;
+        padding: 10px;
+        font-size: 15px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+      }
+      &_checkbox {
+        opacity: 0;
+        position: absolute;
+        width: 0;
+        height: 0;
+        &:checked + .issues-list_item_icon svg {
+          fill: transparent;
+          stroke: $border-gray;  
+        }
+      }
+      &_icon {
+        cursor: pointer;
+      }
+    }
+  }

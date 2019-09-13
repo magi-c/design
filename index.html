@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Malgorzata Chrzeszczyk">
+    <title>Test Task</title>
+    <link rel="stylesheet" href="./build/css/main.css">
+</head>
+
+<body>
+<div class="app">
+    <div class="app__left">
+        <div class="sidebar">
+            <div class="sidebar__header">
+                <div class="osx-buttons">
+                    <a href="#" class="osx-buttons_btn btn-red"></a>
+                    <a href="#" class="osx-buttons_btn btn-yellow"></a>
+                    <a href="#" class="osx-buttons_btn btn-green"></a>
+                </div>
+            </div>
+            <div class="sidebar__body">
+                <ul class="fliters__list">
+                    <li class="fliters__list_item">
+                        <input type="radio" id="filter-github" name="issue-type" value=""
+                               class="fliters__list_item_radio">
+                        <label class="fliters__list_item_label" for="filter-github">
+                            <i class="fliters__list_item_icon icon-github"></i>
+                            All
+                            <span class="fliters__list_item_nr">12</span>
+                        </label>
+                    </li>
+                    <li class="fliters__list_item">
+                        <input type="radio" id="filter-open" name="issue-type" value=""
+                               class="fliters__list_item_radio">
+                        <label class="fliters__list_item_label" for="filter-open">
+                            <i class="fliters__list_item_icon icon-open"></i>
+                            Open
+                            <span class="fliters__list_item_nr">4</span>
+                        </label>
+                    </li>
+                    <li class="fliters__list_item">
+                        <input type="radio" id="filter-closed" name="issue-type" value=""
+                               class="fliters__list_item_radio">
+                        <label class="fliters__list_item_label" for="filter-closed">
+                            <i class="fliters__list_item_icon icon-closed"></i>
+                            Closed
+                            <span class="fliters__list_item_nr">8</span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="app__right">
+        <div class="main-content">
+            <ul class="main-content__list">
+                <li class="main-content__list_item">
+                    <div class="main-content__list_item_header">19-07-2016</div>
+                    <div class="main-content__list_item_body">
+                        <ul class="issues-list">
+                            <li class="issues-list_item">
+                                <label class="issues-list_item_label">
+                                    Page Changes
+                                    <input type="checkbox" class="issues-list_item_checkbox" name="issue" value="">
+                                    <span class="issues-list_item_icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                 preserveAspectRatio="xMidYMid" width="17" height="16"
+                                                 viewBox="0 0 17 16">
+                                                <path
+                                                        d="M8.500,0.000 L11.301,5.028 L16.999,6.112 L13.033,10.302 L13.753,16.000 L8.500,13.561 L3.247,16.000 L3.967,10.302 L0.001,6.112 L5.699,5.028 L8.500,0.000"/>
+                                            </svg>
+                                        </span>
+                                </label>
+                            </li>
+                            <li class="issues-list_item">
+                                <label class="issues-list_item_label">
+                                    Review of last issues
+                                    <input type="checkbox" class="issues-list_item_checkbox" name="issue" value="">
+                                    <span class="issues-list_item_icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                 preserveAspectRatio="xMidYMid" width="17" height="16"
+                                                 viewBox="0 0 17 16">
+                                                <path
+                                                        d="M8.500,0.000 L11.301,5.028 L16.999,6.112 L13.033,10.302 L13.753,16.000 L8.500,13.561 L3.247,16.000 L3.967,10.302 L0.001,6.112 L5.699,5.028 L8.500,0.000"/>
+                                            </svg>
+                                        </span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="main-content__list_item">
+                    <div class="main-content__list_item_header">18-07-2016</div>
+                    <div class="main-content__list_item_body">
+                        <ul class="issues-list">
+                            <li class="issues-list_item">
+                                <label class="issues-list_item_label">
+                                    Visual UI Update Review
+                                    <input type="checkbox" class="issues-list_item_checkbox" name="issue" value="">
+                                    <span class="issues-list_item_icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                 preserveAspectRatio="xMidYMid" width="17" height="16"
+                                                 viewBox="0 0 17 16">
+                                                <path
+                                                        d="M8.500,0.000 L11.301,5.028 L16.999,6.112 L13.033,10.302 L13.753,16.000 L8.500,13.561 L3.247,16.000 L3.967,10.302 L0.001,6.112 L5.699,5.028 L8.500,0.000"/>
+                                            </svg>
+                                        </span>
+                                </label>
+                            </li>
+                            <li class="issues-list_item">
+                                <label class="issues-list_item_label">
+                                    Sidebar changes
+                                    <input type="checkbox" class="issues-list_item_checkbox" name="issue" value="">
+                                    <span class="issues-list_item_icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                 preserveAspectRatio="xMidYMid" width="17" height="16"
+                                                 viewBox="0 0 17 16">
+                                                <path
+                                                        d="M8.500,0.000 L11.301,5.028 L16.999,6.112 L13.033,10.302 L13.753,16.000 L8.500,13.561 L3.247,16.000 L3.967,10.302 L0.001,6.112 L5.699,5.028 L8.500,0.000"/>
+                                            </svg>
+                                        </span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="main-content__list_item">
+                    <div class="main-content__list_item_header">15-07-2016</div>
+                    <div class="main-content__list_item_body">
+                        <ul class="issues-list">
+                            <li class="issues-list_item">
+                                <label class="issues-list_item_label">
+                                    Crash update
+                                    <input type="checkbox" class="issues-list_item_checkbox" name="issue" value="">
+                                    <span class="issues-list_item_icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                 preserveAspectRatio="xMidYMid" width="17" height="16"
+                                                 viewBox="0 0 17 16">
+                                                <path
+                                                        d="M8.500,0.000 L11.301,5.028 L16.999,6.112 L13.033,10.302 L13.753,16.000 L8.500,13.561 L3.247,16.000 L3.967,10.302 L0.001,6.112 L5.699,5.028 L8.500,0.000"/>
+                                            </svg>
+                                        </span>
+                                </label>
+                            </li>
+                            <li class="issues-list_item">
+                                <label class="issues-list_item_label">
+                                    Page visual UI Update Review
+                                    <input type="checkbox" class="issues-list_item_checkbox" name="issue" value="">
+                                    <span class="issues-list_item_icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                 preserveAspectRatio="xMidYMid" width="17" height="16"
+                                                 viewBox="0 0 17 16">
+                                                <path
+                                                        d="M8.500,0.000 L11.301,5.028 L16.999,6.112 L13.033,10.302 L13.753,16.000 L8.500,13.561 L3.247,16.000 L3.967,10.302 L0.001,6.112 L5.699,5.028 L8.500,0.000"/>
+                                            </svg>
+                                        </span>
+                                </label>
+                            </li>
+                            <li class="issues-list_item">
+                                <label class="issues-list_item_label">
+                                    Sidebar update
+                                    <input type="checkbox" class="issues-list_item_checkbox" name="issue" value="">
+                                    <span class="issues-list_item_icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                 preserveAspectRatio="xMidYMid" width="17" height="16"
+                                                 viewBox="0 0 17 16">
+                                                <path
+                                                        d="M8.500,0.000 L11.301,5.028 L16.999,6.112 L13.033,10.302 L13.753,16.000 L8.500,13.561 L3.247,16.000 L3.967,10.302 L0.001,6.112 L5.699,5.028 L8.500,0.000"/>
+                                            </svg>
+                                        </span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="main-content__list_item">
+                    <div class="main-content__list_item_header">14-07-2016</div>
+                    <div class="main-content__list_item_body">
+                        <ul class="issues-list">
+                            <li class="issues-list_item">
+                                <label class="issues-list_item_label">
+                                    Crash issue
+                                    <input type="checkbox" class="issues-list_item_checkbox" name="issue" value="">
+                                    <span class="issues-list_item_icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                 preserveAspectRatio="xMidYMid" width="17" height="16"
+                                                 viewBox="0 0 17 16">
+                                                <path
+                                                        d="M8.500,0.000 L11.301,5.028 L16.999,6.112 L13.033,10.302 L13.753,16.000 L8.500,13.561 L3.247,16.000 L3.967,10.302 L0.001,6.112 L5.699,5.028 L8.500,0.000"/>
+                                            </svg>
+                                        </span>
+                                </label>
+                            </li>
+                            <li class="issues-list_item">
+                                <label class="issues-list_item_label">
+                                    Visual update & Crash resolve
+                                    <input type="checkbox" class="issues-list_item_checkbox" name="issue" value="">
+                                    <span class="issues-list_item_icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg"
+                                                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                                                 preserveAspectRatio="xMidYMid" width="17" height="16"
+                                                 viewBox="0 0 17 16">
+                                                <path
+                                                        d="M8.500,0.000 L11.301,5.028 L16.999,6.112 L13.033,10.302 L13.753,16.000 L8.500,13.561 L3.247,16.000 L3.967,10.302 L0.001,6.112 L5.699,5.028 L8.500,0.000"/>
+                                            </svg>
+                                        </span>
+                                </label>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

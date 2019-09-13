@@ -1,0 +1,17 @@
+.main-content {
+    padding: 0 15px;
+    width: 100%;
+    overflow: auto;
+    &__list {
+      &_item {
+        &_header {
+          color: $date-color;
+          font-size: 12px;
+          margin: 10px 0;
+        }
+        &_body {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }

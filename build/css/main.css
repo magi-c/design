@@ -1,0 +1,198 @@
+.icon-github:before {
+  content: url("./../img/icon-github.svg");
+}
+
+.icon-closed:before {
+  content: url("./../img/icon-closed-issue.svg");
+}
+
+.icon-open:before {
+  content: url("./../img/icon-open-issue.svg");
+}
+
+.app {
+  width: 650px;
+  max-width: 100vw;
+  height: 500px;
+  max-height: 100vh;
+  margin: auto;
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+  display: flex;
+}
+.app__left {
+  width: 150px;
+  display: flex;
+}
+.app__right {
+  display: flex;
+  flex-grow: 1;
+  background: #f6f6f6;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+}
+
+.sidebar {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.sidebar__header {
+  height: 40px;
+  background: #101022;
+  padding: 15px;
+  border-top-left-radius: 10px;
+}
+.sidebar__body {
+  background: rgba(16, 16, 34, 0.8);
+  display: flex;
+  height: calc(100% - 40px);
+  border-bottom-left-radius: 10px;
+}
+
+.main-content {
+  padding: 0 15px;
+  width: 100%;
+  overflow: auto;
+}
+.main-content__list_item_header {
+  color: #9898a2;
+  font-size: 12px;
+  margin: 10px 0;
+}
+.main-content__list_item_body {
+  margin-bottom: 10px;
+}
+
+.issues-list_item {
+  display: flex;
+  border: 1px solid #e0e0e0;
+  background: white;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+.issues-list_item:not(:last-child) {
+  margin-bottom: 5px;
+}
+.issues-list_item_label {
+  color: #080606;
+  padding: 10px;
+  font-size: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.issues-list_item_checkbox {
+  opacity: 0;
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.issues-list_item_checkbox:checked + .issues-list_item_icon svg {
+  fill: transparent;
+  stroke: #e0e0e0;
+}
+.issues-list_item_icon {
+  cursor: pointer;
+}
+
+.fliters__list {
+  width: 100%;
+}
+.fliters__list_item {
+  display: flex;
+  justify-content: space-between;
+  min-height: 50px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+.fliters__list_item_radio {
+  opacity: 0;
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.fliters__list_item_radio:checked + label {
+  background: #292a48;
+}
+.fliters__list_item_icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 15px;
+}
+.fliters__list_item_label {
+  position: relative;
+  padding: 15px 15px 15px 41px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 50px;
+  cursor: pointer;
+}
+.fliters__list_item_label:hover {
+  background: #292a48;
+}
+.fliters__list_item_txt {
+  position: relative;
+  padding-left: 26px;
+}
+.fliters__list_item_nr {
+  color: #8a8995;
+}
+
+.osx-buttons {
+  width: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.osx-buttons button {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+.osx-buttons_btn {
+  display: flex;
+  border-radius: 100%;
+  width: 12px;
+  height: 12px;
+}
+.osx-buttons_btn.btn-red {
+  background: #ff594f;
+}
+.osx-buttons_btn.btn-yellow {
+  background: #ffbc1b;
+}
+.osx-buttons_btn.btn-green {
+  background: #00cd46;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./../img/background.jpg) no-repeat;
+  background-size: cover;
+  margin: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  font-family: sans-serif;
+}
+
+ul {
+  padding-inline-start: 0;
+  list-style: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/*# sourceMappingURL=main.css.map */

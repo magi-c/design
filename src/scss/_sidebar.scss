@@ -1,0 +1,17 @@
+.sidebar {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    &__header {
+      height: 40px;
+      background: $dark-blue;
+      padding: 15px;
+      border-top-left-radius: 10px;
+    }
+    &__body {
+      background: rgb(16, 16, 34, 0.8);
+      display: flex;
+      height: calc(100% - 40px);
+      border-bottom-left-radius: 10px;
+    }
+  }
